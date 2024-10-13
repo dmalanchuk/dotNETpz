@@ -1,0 +1,15 @@
+/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.Domain.Logic/bin/Debug/net6.0/JonDou9000.TaskPlanner.Domain.Logic.deps.json
+/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.Domain.Logic/bin/Debug/net6.0/JonDou9000.TaskPlanner.Domain.Logic.dll
+/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.Domain.Logic/bin/Debug/net6.0/JonDou9000.TaskPlanner.Domain.Logic.pdb
+/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.Domain.Logic/bin/Debug/net6.0/JonDou9000.TaskPlanner.Domain.Models.dll
+/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.Domain.Logic/bin/Debug/net6.0/JonDou9000.TaskPlanner.Domain.Models.pdb
+/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.Domain.Logic/obj/Debug/net6.0/JonDou9000.TaskPlanner.Domain.Logic.csproj.AssemblyReference.cache
+/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.Domain.Logic/obj/Debug/net6.0/JonDou9000.TaskPlanner.Domain.Logic.GeneratedMSBuildEditorConfig.editorconfig
+/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.Domain.Logic/obj/Debug/net6.0/JonDou9000.TaskPlanner.Domain.Logic.AssemblyInfoInputs.cache
+/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.Domain.Logic/obj/Debug/net6.0/JonDou9000.TaskPlanner.Domain.Logic.AssemblyInfo.cs
+/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.Domain.Logic/obj/Debug/net6.0/JonDou9000.TaskPlanner.Domain.Logic.csproj.CoreCompileInputs.cache
+/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.Domain.Logic/obj/Debug/net6.0/JonDou90.543666EC.Up2Date
+/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.Domain.Logic/obj/Debug/net6.0/JonDou9000.TaskPlanner.Domain.Logic.dll
+/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.Domain.Logic/obj/Debug/net6.0/refint/JonDou9000.TaskPlanner.Domain.Logic.dll
+/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.Domain.Logic/obj/Debug/net6.0/JonDou9000.TaskPlanner.Domain.Logic.pdb
+/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.Domain.Logic/obj/Debug/net6.0/ref/JonDou9000.TaskPlanner.Domain.Logic.dll
