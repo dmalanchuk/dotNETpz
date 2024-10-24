@@ -13,3 +13,4 @@
 /Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.Domain.Logic/obj/Debug/net6.0/refint/JonDou9000.TaskPlanner.Domain.Logic.dll
 /Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.Domain.Logic/obj/Debug/net6.0/JonDou9000.TaskPlanner.Domain.Logic.pdb
 /Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.Domain.Logic/obj/Debug/net6.0/ref/JonDou9000.TaskPlanner.Domain.Logic.dll
+/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.Domain.Logic/obj/Debug/net6.0/JonDou9000.TaskPlanner.Domain.Logic.sourcelink.json
