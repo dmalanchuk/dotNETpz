@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JonDou9000.TaskPlanner.ConsoleApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+90c8192cc22088bc51e49143c78a850d8e13812f")]
 [assembly: System.Reflection.AssemblyProductAttribute("JonDou9000.TaskPlanner.ConsoleApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JonDou9000.TaskPlanner.ConsoleApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
