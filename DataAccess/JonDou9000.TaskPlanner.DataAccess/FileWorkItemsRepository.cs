@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Text.Json;
+using Newtonsoft.Json; // Додай цей using
 using JonDou9000.TaskPlanner.DataAccess.Abstractions;
 using JonDou9000.TaskPlanner.Domain.Models;
 
@@ -19,10 +19,10 @@ namespace JonDou9000.TaskPlanner.DataAccess
 
         private void LoadWorkItemsFromFile()
         {
-            if (File.Exists(FileName))
+            if (File.Exists(FileName) && new FileInfo(FileName).Length > 0) // Перевіряємо, чи файл не порожній
             {
                 var json = File.ReadAllText(FileName);
-                _workItems = JsonSerializer.Deserialize<List<WorkItem>>(json) ?? new List<WorkItem>();
+                _workItems = JsonConvert.DeserializeObject<List<WorkItem>>(json) ?? new List<WorkItem>();
             }
             else
             {
@@ -76,7 +76,7 @@ namespace JonDou9000.TaskPlanner.DataAccess
 
         public void SaveChanges()
         {
-            var json = JsonSerializer.Serialize(_workItems);
+            var json = JsonConvert.SerializeObject(_workItems, Formatting.Indented);
             File.WriteAllText(FileName, json);
         }
     }

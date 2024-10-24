@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JonDou9000.TaskPlanner.DataAccess.Abstractions")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8bb723c0b82894d291856c3c1b8845061784d154")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+83a1b2f2c41fcf767440677a467f4d7acbdc8d0a")]
 [assembly: System.Reflection.AssemblyProductAttribute("JonDou9000.TaskPlanner.DataAccess.Abstractions")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JonDou9000.TaskPlanner.DataAccess.Abstractions")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

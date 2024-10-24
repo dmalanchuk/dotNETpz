@@ -23,3 +23,4 @@
 /Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.ConsoleApp/obj/Debug/net6.0/JonDou9000.TaskPlanner.ConsoleApp.pdb
 /Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.ConsoleApp/obj/Debug/net6.0/JonDou9000.TaskPlanner.ConsoleApp.genruntimeconfig.cache
 /Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.ConsoleApp/obj/Debug/net6.0/ref/JonDou9000.TaskPlanner.ConsoleApp.dll
+/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.ConsoleApp/bin/Debug/net6.0/Newtonsoft.Json.dll
