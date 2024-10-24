@@ -1,4 +1,5 @@
 ﻿using JonDou9000.TaskPlanner.DataAccess;
+using JonDou9000.TaskPlanner.DataAccess.Abstractions;
 using JonDou9000.TaskPlanner.Domain.Logic;
 using JonDou9000.TaskPlanner.Domain.Models;
 using System;
@@ -9,8 +10,9 @@ namespace JonDou9000.TaskPlanner.ConsoleApp
     {
         static void Main(string[] args)
         {
-            SimpleTaskPlanner planner = new SimpleTaskPlanner();
-            var repository = new FileWorkItemsRepository();
+            var repository = new FileWorkItemsRepository(); // Ініціалізуємо репозиторій
+            SimpleTaskPlanner planner = new SimpleTaskPlanner(repository); // Передаємо репозиторій у конструктор
+
             string command;
 
             do
@@ -30,7 +32,7 @@ namespace JonDou9000.TaskPlanner.ConsoleApp
                         AddWorkItem(repository);
                         break;
                     case "B":
-                        BuildPlan(repository);
+                        planner.BuildPlan(); // Використовуємо метод з SimpleTaskPlanner
                         break;
                     case "M":
                         MarkWorkItemAsCompleted(repository);
@@ -48,7 +50,7 @@ namespace JonDou9000.TaskPlanner.ConsoleApp
             } while (command != "Q");
         }
 
-        static void AddWorkItem(FileWorkItemsRepository repository)
+        static void AddWorkItem(IWorkItemsRepository repository)
         {
             Console.WriteLine("Введіть заголовок задачі:");
             string title = Console.ReadLine();
@@ -67,17 +69,7 @@ namespace JonDou9000.TaskPlanner.ConsoleApp
             Console.WriteLine($"Задача додана з ID: {newId}");
         }
 
-        static void BuildPlan(FileWorkItemsRepository repository)
-        {
-            var allItems = repository.GetAll();
-            Console.WriteLine("Ваші задачі:");
-            foreach (var item in allItems)
-            {
-                Console.WriteLine($"Id: {item.Id}, Title: {item.Title}, Description: {item.Description}, Due Date: {item.DueDate}");
-            }
-        }
-
-        static void MarkWorkItemAsCompleted(FileWorkItemsRepository repository)
+        static void MarkWorkItemAsCompleted(IWorkItemsRepository repository)
         {
             Console.WriteLine("Введіть ID задачі, яку потрібно позначити як завершену:");
             Guid id = Guid.Parse(Console.ReadLine() ?? string.Empty);
@@ -85,7 +77,8 @@ namespace JonDou9000.TaskPlanner.ConsoleApp
 
             if (workItem != null)
             {
-                // Тут можна додати логіку для позначення задачі як завершеної
+                workItem.IsCompleted = true; // Позначаємо задачу як виконану
+                repository.Update(workItem); // Оновлюємо задачу в репозиторії
                 Console.WriteLine($"Задача '{workItem.Title}' позначена як завершена.");
             }
             else
@@ -94,15 +87,14 @@ namespace JonDou9000.TaskPlanner.ConsoleApp
             }
         }
 
-        static void RemoveWorkItem(FileWorkItemsRepository repository)
+        static void RemoveWorkItem(IWorkItemsRepository repository)
         {
             Console.WriteLine("Введіть ID задачі, яку потрібно видалити:");
             Guid id = Guid.Parse(Console.ReadLine() ?? string.Empty);
-            bool removed = repository.Remove(id);
 
-            if (removed)
+            if (repository.Remove(id))
             {
-                Console.WriteLine("Задачу успішно видалено.");
+                Console.WriteLine("Задачу видалено.");
             }
             else
             {

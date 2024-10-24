@@ -1,41 +1,37 @@
 using JonDou9000.TaskPlanner.Domain.Models;
+using JonDou9000.TaskPlanner.DataAccess.Abstractions;
+using System;
 using System.Collections.Generic;
-using System.IO;
-using System.Text.Json;
+using System.Linq;
 
 namespace JonDou9000.TaskPlanner.Domain.Logic
 {
     public class SimpleTaskPlanner
     {
-        private List<WorkItem> tasks = new List<WorkItem>(); // Список задач
+        private readonly IWorkItemsRepository _repository;
 
-        // Метод для додавання нової задачі до списку
-        public void AddTask(WorkItem task)
+        public SimpleTaskPlanner(IWorkItemsRepository repository)
         {
-            tasks.Add(task);
+            _repository = repository;
         }
 
-        // Метод для збереження задач у файл work-items.json
-        public void SaveTasksToFile(string filePath)
+        // Метод для побудови плану задач
+        public void BuildPlan()
         {
-            string json = JsonSerializer.Serialize(tasks, new JsonSerializerOptions { WriteIndented = true });
-            File.WriteAllText(filePath, json);
-        }
+            var tasks = _repository.GetAll()
+                .Where(task => !task.IsCompleted) // Ігноруємо виконані задачі
+                .ToArray();
 
-        // Метод для завантаження задач із файлу
-        public void LoadTasksFromFile(string filePath)
-        {
-            if (File.Exists(filePath))
+            foreach (var task in tasks)
             {
-                string json = File.ReadAllText(filePath);
-                tasks = JsonSerializer.Deserialize<List<WorkItem>>(json);
+                Console.WriteLine($"Id: {task.Id}, Title: {task.Title}, Description: {task.Description}, Due Date: {task.DueDate}");
             }
         }
 
-        // Метод для отримання списку задач
-        public List<WorkItem> GetTasks()
+        // Метод для додавання нової задачі
+        public void AddTask(WorkItem task)
         {
-            return tasks;
+            _repository.Add(task); // Додаємо задачу через репозиторій
         }
     }
 }

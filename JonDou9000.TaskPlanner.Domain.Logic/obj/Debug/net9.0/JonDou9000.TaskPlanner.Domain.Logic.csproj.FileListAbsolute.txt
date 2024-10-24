@@ -46,3 +46,5 @@
 /Users/danamarisik/Сoding/labaratorni/dotNETpz/JonDou9000.TaskPlanner.Domain.Logic/obj/Debug/net9.0/refint/JonDou9000.TaskPlanner.Domain.Logic.dll
 /Users/danamarisik/Сoding/labaratorni/dotNETpz/JonDou9000.TaskPlanner.Domain.Logic/obj/Debug/net9.0/JonDou9000.TaskPlanner.Domain.Logic.pdb
 /Users/danamarisik/Сoding/labaratorni/dotNETpz/JonDou9000.TaskPlanner.Domain.Logic/obj/Debug/net9.0/ref/JonDou9000.TaskPlanner.Domain.Logic.dll
+/Users/danamarisik/Сoding/labaratorni/dotNETpz/JonDou9000.TaskPlanner.Domain.Logic/bin/Debug/net9.0/JonDou9000.TaskPlanner.DataAccess.Abstractions.dll
+/Users/danamarisik/Сoding/labaratorni/dotNETpz/JonDou9000.TaskPlanner.Domain.Logic/bin/Debug/net9.0/JonDou9000.TaskPlanner.DataAccess.Abstractions.pdb

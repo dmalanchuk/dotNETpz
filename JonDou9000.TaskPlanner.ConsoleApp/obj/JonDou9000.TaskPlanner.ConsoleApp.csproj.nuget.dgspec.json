@@ -233,6 +233,9 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
+              "/Users/danamarisik/Сoding/labaratorni/dotNETpz/DataAccess/JonDou9000.TaskPlanner.DataAccess.Abstractions/JonDou9000.TaskPlanner.DataAccess.Abstractions.csproj": {
+                "projectPath": "/Users/danamarisik/Сoding/labaratorni/dotNETpz/DataAccess/JonDou9000.TaskPlanner.DataAccess.Abstractions/JonDou9000.TaskPlanner.DataAccess.Abstractions.csproj"
+              },
               "/Users/danamarisik/Сoding/labaratorni/dotNETpz/JonDou9000.TaskPlanner.Domain.Models/JonDou9000.TaskPlanner.Domain.Models.csproj": {
                 "projectPath": "/Users/danamarisik/Сoding/labaratorni/dotNETpz/JonDou9000.TaskPlanner.Domain.Models/JonDou9000.TaskPlanner.Domain.Models.csproj"
               }

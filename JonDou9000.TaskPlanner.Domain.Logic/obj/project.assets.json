@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net9.0": {
+      "JonDou9000.TaskPlanner.DataAccess.Abstractions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "JonDou9000.TaskPlanner.Domain.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/JonDou9000.TaskPlanner.DataAccess.Abstractions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/JonDou9000.TaskPlanner.DataAccess.Abstractions.dll": {}
+        }
+      },
       "JonDou9000.TaskPlanner.Domain.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -15,6 +28,11 @@
     }
   },
   "libraries": {
+    "JonDou9000.TaskPlanner.DataAccess.Abstractions/1.0.0": {
+      "type": "project",
+      "path": "../DataAccess/JonDou9000.TaskPlanner.DataAccess.Abstractions/JonDou9000.TaskPlanner.DataAccess.Abstractions.csproj",
+      "msbuildProject": "../DataAccess/JonDou9000.TaskPlanner.DataAccess.Abstractions/JonDou9000.TaskPlanner.DataAccess.Abstractions.csproj"
+    },
     "JonDou9000.TaskPlanner.Domain.Models/1.0.0": {
       "type": "project",
       "path": "../JonDou9000.TaskPlanner.Domain.Models/JonDou9000.TaskPlanner.Domain.Models.csproj",
@@ -23,6 +41,7 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "JonDou9000.TaskPlanner.DataAccess.Abstractions >= 1.0.0",
       "JonDou9000.TaskPlanner.Domain.Models >= 1.0.0"
     ]
   },
@@ -51,6 +70,9 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
+            "/Users/danamarisik/Сoding/labaratorni/dotNETpz/DataAccess/JonDou9000.TaskPlanner.DataAccess.Abstractions/JonDou9000.TaskPlanner.DataAccess.Abstractions.csproj": {
+              "projectPath": "/Users/danamarisik/Сoding/labaratorni/dotNETpz/DataAccess/JonDou9000.TaskPlanner.DataAccess.Abstractions/JonDou9000.TaskPlanner.DataAccess.Abstractions.csproj"
+            },
             "/Users/danamarisik/Сoding/labaratorni/dotNETpz/JonDou9000.TaskPlanner.Domain.Models/JonDou9000.TaskPlanner.Domain.Models.csproj": {
               "projectPath": "/Users/danamarisik/Сoding/labaratorni/dotNETpz/JonDou9000.TaskPlanner.Domain.Models/JonDou9000.TaskPlanner.Domain.Models.csproj"
             }

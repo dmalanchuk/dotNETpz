@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\JonDou9000.TaskPlanner.Domain.Models\JonDou9000.TaskPlanner.Domain.Models.csproj" />
+    <ProjectReference Include="..\DataAccess/JonDou9000.TaskPlanner.DataAccess.Abstractions/JonDou9000.TaskPlanner.DataAccess.Abstractions.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
