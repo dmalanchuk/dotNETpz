@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.ConsoleApp/JonDou9000.TaskPlanner.ConsoleApp.csproj": {}
+    "/Users/danamarisik/Сoding/labaratorni/dotNETpz/JonDou9000.TaskPlanner.ConsoleApp/JonDou9000.TaskPlanner.ConsoleApp.csproj": {}
   },
   "projects": {
-    "/Users/danamarisik/Сoding/labaratorni/lab/DataAccess/JonDou9000.TaskPlanner.DataAccess.Abstractions/JonDou9000.TaskPlanner.DataAccess.Abstractions.csproj": {
+    "/Users/danamarisik/Сoding/labaratorni/dotNETpz/DataAccess/JonDou9000.TaskPlanner.DataAccess.Abstractions/JonDou9000.TaskPlanner.DataAccess.Abstractions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/danamarisik/Сoding/labaratorni/lab/DataAccess/JonDou9000.TaskPlanner.DataAccess.Abstractions/JonDou9000.TaskPlanner.DataAccess.Abstractions.csproj",
+        "projectUniqueName": "/Users/danamarisik/Сoding/labaratorni/dotNETpz/DataAccess/JonDou9000.TaskPlanner.DataAccess.Abstractions/JonDou9000.TaskPlanner.DataAccess.Abstractions.csproj",
         "projectName": "JonDou9000.TaskPlanner.DataAccess.Abstractions",
-        "projectPath": "/Users/danamarisik/Сoding/labaratorni/lab/DataAccess/JonDou9000.TaskPlanner.DataAccess.Abstractions/JonDou9000.TaskPlanner.DataAccess.Abstractions.csproj",
+        "projectPath": "/Users/danamarisik/Сoding/labaratorni/dotNETpz/DataAccess/JonDou9000.TaskPlanner.DataAccess.Abstractions/JonDou9000.TaskPlanner.DataAccess.Abstractions.csproj",
         "packagesPath": "/Users/danamarisik/.nuget/packages/",
-        "outputPath": "/Users/danamarisik/Сoding/labaratorni/lab/DataAccess/JonDou9000.TaskPlanner.DataAccess.Abstractions/obj/",
+        "outputPath": "/Users/danamarisik/Сoding/labaratorni/dotNETpz/DataAccess/JonDou9000.TaskPlanner.DataAccess.Abstractions/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/danamarisik/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.Domain.Models/JonDou9000.TaskPlanner.Domain.Models.csproj": {
-                "projectPath": "/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.Domain.Models/JonDou9000.TaskPlanner.Domain.Models.csproj"
+              "/Users/danamarisik/Сoding/labaratorni/dotNETpz/JonDou9000.TaskPlanner.Domain.Models/JonDou9000.TaskPlanner.Domain.Models.csproj": {
+                "projectPath": "/Users/danamarisik/Сoding/labaratorni/dotNETpz/JonDou9000.TaskPlanner.Domain.Models/JonDou9000.TaskPlanner.Domain.Models.csproj"
               }
             }
           }
@@ -66,14 +66,14 @@
         }
       }
     },
-    "/Users/danamarisik/Сoding/labaratorni/lab/DataAccess/JonDou9000.TaskPlanner.DataAccess/JonDou9000.TaskPlanner.DataAccess.csproj": {
+    "/Users/danamarisik/Сoding/labaratorni/dotNETpz/DataAccess/JonDou9000.TaskPlanner.DataAccess/JonDou9000.TaskPlanner.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/danamarisik/Сoding/labaratorni/lab/DataAccess/JonDou9000.TaskPlanner.DataAccess/JonDou9000.TaskPlanner.DataAccess.csproj",
+        "projectUniqueName": "/Users/danamarisik/Сoding/labaratorni/dotNETpz/DataAccess/JonDou9000.TaskPlanner.DataAccess/JonDou9000.TaskPlanner.DataAccess.csproj",
         "projectName": "JonDou9000.TaskPlanner.DataAccess",
-        "projectPath": "/Users/danamarisik/Сoding/labaratorni/lab/DataAccess/JonDou9000.TaskPlanner.DataAccess/JonDou9000.TaskPlanner.DataAccess.csproj",
+        "projectPath": "/Users/danamarisik/Сoding/labaratorni/dotNETpz/DataAccess/JonDou9000.TaskPlanner.DataAccess/JonDou9000.TaskPlanner.DataAccess.csproj",
         "packagesPath": "/Users/danamarisik/.nuget/packages/",
-        "outputPath": "/Users/danamarisik/Сoding/labaratorni/lab/DataAccess/JonDou9000.TaskPlanner.DataAccess/obj/",
+        "outputPath": "/Users/danamarisik/Сoding/labaratorni/dotNETpz/DataAccess/JonDou9000.TaskPlanner.DataAccess/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/danamarisik/.nuget/NuGet/NuGet.Config"
@@ -88,8 +88,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/Users/danamarisik/Сoding/labaratorni/lab/DataAccess/JonDou9000.TaskPlanner.DataAccess.Abstractions/JonDou9000.TaskPlanner.DataAccess.Abstractions.csproj": {
-                "projectPath": "/Users/danamarisik/Сoding/labaratorni/lab/DataAccess/JonDou9000.TaskPlanner.DataAccess.Abstractions/JonDou9000.TaskPlanner.DataAccess.Abstractions.csproj"
+              "/Users/danamarisik/Сoding/labaratorni/dotNETpz/DataAccess/JonDou9000.TaskPlanner.DataAccess.Abstractions/JonDou9000.TaskPlanner.DataAccess.Abstractions.csproj": {
+                "projectPath": "/Users/danamarisik/Сoding/labaratorni/dotNETpz/DataAccess/JonDou9000.TaskPlanner.DataAccess.Abstractions/JonDou9000.TaskPlanner.DataAccess.Abstractions.csproj"
               }
             }
           }
@@ -134,14 +134,14 @@
         }
       }
     },
-    "/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.ConsoleApp/JonDou9000.TaskPlanner.ConsoleApp.csproj": {
+    "/Users/danamarisik/Сoding/labaratorni/dotNETpz/JonDou9000.TaskPlanner.ConsoleApp/JonDou9000.TaskPlanner.ConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.ConsoleApp/JonDou9000.TaskPlanner.ConsoleApp.csproj",
+        "projectUniqueName": "/Users/danamarisik/Сoding/labaratorni/dotNETpz/JonDou9000.TaskPlanner.ConsoleApp/JonDou9000.TaskPlanner.ConsoleApp.csproj",
         "projectName": "JonDou9000.TaskPlanner.ConsoleApp",
-        "projectPath": "/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.ConsoleApp/JonDou9000.TaskPlanner.ConsoleApp.csproj",
+        "projectPath": "/Users/danamarisik/Сoding/labaratorni/dotNETpz/JonDou9000.TaskPlanner.ConsoleApp/JonDou9000.TaskPlanner.ConsoleApp.csproj",
         "packagesPath": "/Users/danamarisik/.nuget/packages/",
-        "outputPath": "/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.ConsoleApp/obj/",
+        "outputPath": "/Users/danamarisik/Сoding/labaratorni/dotNETpz/JonDou9000.TaskPlanner.ConsoleApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/danamarisik/.nuget/NuGet/NuGet.Config"
@@ -156,17 +156,17 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/Users/danamarisik/Сoding/labaratorni/lab/DataAccess/JonDou9000.TaskPlanner.DataAccess.Abstractions/JonDou9000.TaskPlanner.DataAccess.Abstractions.csproj": {
-                "projectPath": "/Users/danamarisik/Сoding/labaratorni/lab/DataAccess/JonDou9000.TaskPlanner.DataAccess.Abstractions/JonDou9000.TaskPlanner.DataAccess.Abstractions.csproj"
+              "/Users/danamarisik/Сoding/labaratorni/dotNETpz/DataAccess/JonDou9000.TaskPlanner.DataAccess.Abstractions/JonDou9000.TaskPlanner.DataAccess.Abstractions.csproj": {
+                "projectPath": "/Users/danamarisik/Сoding/labaratorni/dotNETpz/DataAccess/JonDou9000.TaskPlanner.DataAccess.Abstractions/JonDou9000.TaskPlanner.DataAccess.Abstractions.csproj"
               },
-              "/Users/danamarisik/Сoding/labaratorni/lab/DataAccess/JonDou9000.TaskPlanner.DataAccess/JonDou9000.TaskPlanner.DataAccess.csproj": {
-                "projectPath": "/Users/danamarisik/Сoding/labaratorni/lab/DataAccess/JonDou9000.TaskPlanner.DataAccess/JonDou9000.TaskPlanner.DataAccess.csproj"
+              "/Users/danamarisik/Сoding/labaratorni/dotNETpz/DataAccess/JonDou9000.TaskPlanner.DataAccess/JonDou9000.TaskPlanner.DataAccess.csproj": {
+                "projectPath": "/Users/danamarisik/Сoding/labaratorni/dotNETpz/DataAccess/JonDou9000.TaskPlanner.DataAccess/JonDou9000.TaskPlanner.DataAccess.csproj"
               },
-              "/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.Domain.Logic/JonDou9000.TaskPlanner.Domain.Logic.csproj": {
-                "projectPath": "/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.Domain.Logic/JonDou9000.TaskPlanner.Domain.Logic.csproj"
+              "/Users/danamarisik/Сoding/labaratorni/dotNETpz/JonDou9000.TaskPlanner.Domain.Logic/JonDou9000.TaskPlanner.Domain.Logic.csproj": {
+                "projectPath": "/Users/danamarisik/Сoding/labaratorni/dotNETpz/JonDou9000.TaskPlanner.Domain.Logic/JonDou9000.TaskPlanner.Domain.Logic.csproj"
               },
-              "/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.Domain.Models/JonDou9000.TaskPlanner.Domain.Models.csproj": {
-                "projectPath": "/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.Domain.Models/JonDou9000.TaskPlanner.Domain.Models.csproj"
+              "/Users/danamarisik/Сoding/labaratorni/dotNETpz/JonDou9000.TaskPlanner.Domain.Models/JonDou9000.TaskPlanner.Domain.Models.csproj": {
+                "projectPath": "/Users/danamarisik/Сoding/labaratorni/dotNETpz/JonDou9000.TaskPlanner.Domain.Models/JonDou9000.TaskPlanner.Domain.Models.csproj"
               }
             }
           }
@@ -211,14 +211,14 @@
         }
       }
     },
-    "/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.Domain.Logic/JonDou9000.TaskPlanner.Domain.Logic.csproj": {
+    "/Users/danamarisik/Сoding/labaratorni/dotNETpz/JonDou9000.TaskPlanner.Domain.Logic/JonDou9000.TaskPlanner.Domain.Logic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.Domain.Logic/JonDou9000.TaskPlanner.Domain.Logic.csproj",
+        "projectUniqueName": "/Users/danamarisik/Сoding/labaratorni/dotNETpz/JonDou9000.TaskPlanner.Domain.Logic/JonDou9000.TaskPlanner.Domain.Logic.csproj",
         "projectName": "JonDou9000.TaskPlanner.Domain.Logic",
-        "projectPath": "/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.Domain.Logic/JonDou9000.TaskPlanner.Domain.Logic.csproj",
+        "projectPath": "/Users/danamarisik/Сoding/labaratorni/dotNETpz/JonDou9000.TaskPlanner.Domain.Logic/JonDou9000.TaskPlanner.Domain.Logic.csproj",
         "packagesPath": "/Users/danamarisik/.nuget/packages/",
-        "outputPath": "/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.Domain.Logic/obj/",
+        "outputPath": "/Users/danamarisik/Сoding/labaratorni/dotNETpz/JonDou9000.TaskPlanner.Domain.Logic/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/danamarisik/.nuget/NuGet/NuGet.Config"
@@ -233,8 +233,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.Domain.Models/JonDou9000.TaskPlanner.Domain.Models.csproj": {
-                "projectPath": "/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.Domain.Models/JonDou9000.TaskPlanner.Domain.Models.csproj"
+              "/Users/danamarisik/Сoding/labaratorni/dotNETpz/JonDou9000.TaskPlanner.Domain.Models/JonDou9000.TaskPlanner.Domain.Models.csproj": {
+                "projectPath": "/Users/danamarisik/Сoding/labaratorni/dotNETpz/JonDou9000.TaskPlanner.Domain.Models/JonDou9000.TaskPlanner.Domain.Models.csproj"
               }
             }
           }
@@ -273,14 +273,14 @@
         }
       }
     },
-    "/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.Domain.Models/JonDou9000.TaskPlanner.Domain.Models.csproj": {
+    "/Users/danamarisik/Сoding/labaratorni/dotNETpz/JonDou9000.TaskPlanner.Domain.Models/JonDou9000.TaskPlanner.Domain.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.Domain.Models/JonDou9000.TaskPlanner.Domain.Models.csproj",
+        "projectUniqueName": "/Users/danamarisik/Сoding/labaratorni/dotNETpz/JonDou9000.TaskPlanner.Domain.Models/JonDou9000.TaskPlanner.Domain.Models.csproj",
         "projectName": "JonDou9000.TaskPlanner.Domain.Models",
-        "projectPath": "/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.Domain.Models/JonDou9000.TaskPlanner.Domain.Models.csproj",
+        "projectPath": "/Users/danamarisik/Сoding/labaratorni/dotNETpz/JonDou9000.TaskPlanner.Domain.Models/JonDou9000.TaskPlanner.Domain.Models.csproj",
         "packagesPath": "/Users/danamarisik/.nuget/packages/",
-        "outputPath": "/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.Domain.Models/obj/",
+        "outputPath": "/Users/danamarisik/Сoding/labaratorni/dotNETpz/JonDou9000.TaskPlanner.Domain.Models/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/danamarisik/.nuget/NuGet/NuGet.Config"

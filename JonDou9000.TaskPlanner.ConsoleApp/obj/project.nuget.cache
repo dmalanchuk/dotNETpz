@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ItAjX+dlexYMyHcTzOjKav6g/eZzSLIbFpp3afPkhs7g79yMxrM2FoKLe6wnEP9zEgc8UvvOW7Ea+IefDZsLBQ==",
+  "dgSpecHash": "vVk6aGIVvb6gAiFwDWTPI9PCHi5kPJP57pqNR7qpOx+zDUgGMW63SLomMldH8imlRpluy6WRFAwQ8tvCFl/ktQ==",
   "success": true,
-  "projectFilePath": "/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.ConsoleApp/JonDou9000.TaskPlanner.ConsoleApp.csproj",
+  "projectFilePath": "/Users/danamarisik/Сoding/labaratorni/dotNETpz/JonDou9000.TaskPlanner.ConsoleApp/JonDou9000.TaskPlanner.ConsoleApp.csproj",
   "expectedPackageFiles": [
     "/Users/danamarisik/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
   ],
