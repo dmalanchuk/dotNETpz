@@ -1,31 +1,41 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using JonDou9000.TaskPlanner.Domain.Models;
+using System.Collections.Generic;
+using System.IO;
+using System.Text.Json;
 
 namespace JonDou9000.TaskPlanner.Domain.Logic
 {
     public class SimpleTaskPlanner
     {
-        public WorkItem[] CreatePlan(WorkItem[] items)
+        private List<WorkItem> tasks = new List<WorkItem>(); // Список задач
+
+        // Метод для додавання нової задачі до списку
+        public void AddTask(WorkItem task)
         {
-            var itemsAsList = items.ToList();
-            itemsAsList.Sort(CompareWorkItems);
-            return itemsAsList.ToArray();
+            tasks.Add(task);
         }
 
-        private static int CompareWorkItems(WorkItem firstItem, WorkItem secondItem)
+        // Метод для збереження задач у файл work-items.json
+        public void SaveTasksToFile(string filePath)
         {
-            // Порівнюємо за пріоритетом (спаданням)
-            if (firstItem.Priority != secondItem.Priority)
-                return secondItem.Priority.CompareTo(firstItem.Priority);
+            string json = JsonSerializer.Serialize(tasks, new JsonSerializerOptions { WriteIndented = true });
+            File.WriteAllText(filePath, json);
+        }
 
-            // Потім за терміном виконання (зростанням)
-            if (firstItem.DueDate != secondItem.DueDate)
-                return firstItem.DueDate.CompareTo(secondItem.DueDate);
+        // Метод для завантаження задач із файлу
+        public void LoadTasksFromFile(string filePath)
+        {
+            if (File.Exists(filePath))
+            {
+                string json = File.ReadAllText(filePath);
+                tasks = JsonSerializer.Deserialize<List<WorkItem>>(json);
+            }
+        }
 
-            // Нарешті, за назвою (алфавітний порядок)
-            return string.Compare(firstItem.Title, secondItem.Title, StringComparison.Ordinal);
+        // Метод для отримання списку задач
+        public List<WorkItem> GetTasks()
+        {
+            return tasks;
         }
     }
 }

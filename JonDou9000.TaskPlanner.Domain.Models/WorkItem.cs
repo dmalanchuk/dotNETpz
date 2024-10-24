@@ -1,32 +1,31 @@
-using System;
 using JonDou9000.TaskPlanner.Domain.Models.Enums;
+using System;
 
 namespace JonDou9000.TaskPlanner.Domain.Models
 {
     public class WorkItem
     {
-        public DateTime CreationDate { get; set; }
-        public DateTime DueDate { get; set; }
-        public Priority Priority { get; set; }
-        public Complexity Complexity { get; set; }
-        public string Title { get; set; }
-        public string Description { get; set; }
-        public bool IsCompleted { get; set; }
+        public Guid Id { get; set; } // Властивість Id для кожної задачі
+        public string Title { get; set; } // Назва задачі
+        public string Description { get; set; } // Опис задачі
+        public DateTime DueDate { get; set; } // Крайній термін
 
-        public WorkItem(DateTime creationDate, DateTime dueDate, Priority priority, Complexity complexity, string title, string description, bool isCompleted)
+        // Конструктор, який автоматично генерує унікальний Id
+        public WorkItem()
         {
-            CreationDate = creationDate;
-            DueDate = dueDate;
-            Priority = priority;
-            Complexity = complexity;
-            Title = title;
-            Description = description;
-            IsCompleted = isCompleted;
+            Id = Guid.NewGuid();
         }
 
-        public override string ToString()
+        // Метод для клонування об'єкта
+        public WorkItem Clone()
         {
-            return $"{Title}: due {DueDate:dd.MM.yyyy}, {Priority.ToString().ToLower()} priority";
+            return new WorkItem
+            {
+                Id = this.Id, // Копіює існуючий Id
+                Title = this.Title,
+                Description = this.Description,
+                DueDate = this.DueDate
+            };
         }
     }
 }
