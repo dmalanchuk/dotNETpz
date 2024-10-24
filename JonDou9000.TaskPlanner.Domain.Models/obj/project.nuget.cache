@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yH8TPGX48JNWgD3oU/E91AXuK3p47v/JLwvk2J7xiJX8IfSfHLKPxt/YT2DKADfbBv4f4AZQQdbWmEsH4YriEA==",
+  "dgSpecHash": "vP+bTeFejuJi+VnMsFRYCjDevOFTNdHL0PKuHRdS7JVZKlsvdis02PPnT2ggh3hBqaFfdulkWI/std3VCu/AYw==",
   "success": true,
   "projectFilePath": "/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.Domain.Models/JonDou9000.TaskPlanner.Domain.Models.csproj",
-  "expectedPackageFiles": [
-    "/Users/danamarisik/.nuget/packages/microsoft.netcore.app.ref/6.0.26/microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
-    "/Users/danamarisik/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.26/microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

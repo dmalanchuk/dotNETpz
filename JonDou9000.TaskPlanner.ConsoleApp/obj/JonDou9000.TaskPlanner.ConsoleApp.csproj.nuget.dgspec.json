@@ -17,14 +17,14 @@
           "/Users/danamarisik/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net9.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {
               "/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.Domain.Models/JonDou9000.TaskPlanner.Domain.Models.csproj": {
                 "projectPath": "/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.Domain.Models/JonDou9000.TaskPlanner.Domain.Models.csproj"
@@ -44,8 +44,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "imports": [
             "net461",
             "net462",
@@ -57,22 +57,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.26, 6.0.26]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.26, 6.0.26]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100-preview.1.24101.2/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100-preview.1.24101.2/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -89,14 +79,14 @@
           "/Users/danamarisik/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net9.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {
               "/Users/danamarisik/Сoding/labaratorni/lab/DataAccess/JonDou9000.TaskPlanner.DataAccess.Abstractions/JonDou9000.TaskPlanner.DataAccess.Abstractions.csproj": {
                 "projectPath": "/Users/danamarisik/Сoding/labaratorni/lab/DataAccess/JonDou9000.TaskPlanner.DataAccess.Abstractions/JonDou9000.TaskPlanner.DataAccess.Abstractions.csproj"
@@ -116,8 +106,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "dependencies": {
             "Newtonsoft.Json": {
               "target": "Package",
@@ -135,22 +125,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.26, 6.0.26]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.26, 6.0.26]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100-preview.1.24101.2/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100-preview.1.24101.2/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -167,14 +147,14 @@
           "/Users/danamarisik/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net9.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {
               "/Users/danamarisik/Сoding/labaratorni/lab/DataAccess/JonDou9000.TaskPlanner.DataAccess.Abstractions/JonDou9000.TaskPlanner.DataAccess.Abstractions.csproj": {
                 "projectPath": "/Users/danamarisik/Сoding/labaratorni/lab/DataAccess/JonDou9000.TaskPlanner.DataAccess.Abstractions/JonDou9000.TaskPlanner.DataAccess.Abstractions.csproj"
@@ -203,8 +183,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "dependencies": {
             "Newtonsoft.Json": {
               "target": "Package",
@@ -222,26 +202,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.26, 6.0.26]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.osx-arm64",
-              "version": "[6.0.26, 6.0.26]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.26, 6.0.26]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100-preview.1.24101.2/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100-preview.1.24101.2/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -258,14 +224,14 @@
           "/Users/danamarisik/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net9.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {
               "/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.Domain.Models/JonDou9000.TaskPlanner.Domain.Models.csproj": {
                 "projectPath": "/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.Domain.Models/JonDou9000.TaskPlanner.Domain.Models.csproj"
@@ -285,8 +251,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "imports": [
             "net461",
             "net462",
@@ -298,22 +264,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.26, 6.0.26]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.26, 6.0.26]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100-preview.1.24101.2/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100-preview.1.24101.2/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -330,14 +286,14 @@
           "/Users/danamarisik/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net9.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {}
           }
         },
@@ -353,8 +309,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "imports": [
             "net461",
             "net462",
@@ -366,22 +322,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.26, 6.0.26]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.26, 6.0.26]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100-preview.1.24101.2/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100-preview.1.24101.2/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

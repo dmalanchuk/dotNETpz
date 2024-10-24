@@ -1,13 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "77KH0TrBUN9vaY4gdOiza55wgjjmRatdmcwzlhGmJo+XxsYc0GUl6nLxT/LVjJJekSAWCgQYklVAeYP0tyrUfw==",
+  "dgSpecHash": "ItAjX+dlexYMyHcTzOjKav6g/eZzSLIbFpp3afPkhs7g79yMxrM2FoKLe6wnEP9zEgc8UvvOW7Ea+IefDZsLBQ==",
   "success": true,
   "projectFilePath": "/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.ConsoleApp/JonDou9000.TaskPlanner.ConsoleApp.csproj",
   "expectedPackageFiles": [
-    "/Users/danamarisik/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
-    "/Users/danamarisik/.nuget/packages/microsoft.netcore.app.ref/6.0.26/microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
-    "/Users/danamarisik/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.26/microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512",
-    "/Users/danamarisik/.nuget/packages/microsoft.netcore.app.host.osx-arm64/6.0.26/microsoft.netcore.app.host.osx-arm64.6.0.26.nupkg.sha512"
+    "/Users/danamarisik/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }

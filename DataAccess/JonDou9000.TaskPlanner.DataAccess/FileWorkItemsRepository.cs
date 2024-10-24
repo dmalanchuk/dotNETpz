@@ -10,10 +10,11 @@ namespace JonDou9000.TaskPlanner.DataAccess
     public class FileWorkItemsRepository : IWorkItemsRepository
     {
         private const string FileName = "work-items.json";
-        private List<WorkItem> _workItems;
+        private readonly Dictionary<Guid, WorkItem> _workItems; // Змінено на словник
 
         public FileWorkItemsRepository()
         {
+            _workItems = new Dictionary<Guid, WorkItem>(); // Ініціалізація словника
             LoadWorkItemsFromFile();
         }
 
@@ -22,41 +23,42 @@ namespace JonDou9000.TaskPlanner.DataAccess
             if (File.Exists(FileName) && new FileInfo(FileName).Length > 0) // Перевіряємо, чи файл не порожній
             {
                 var json = File.ReadAllText(FileName);
-                _workItems = JsonConvert.DeserializeObject<List<WorkItem>>(json) ?? new List<WorkItem>();
-            }
-            else
-            {
-                _workItems = new List<WorkItem>();
+                var workItemsArray = JsonConvert.DeserializeObject<List<WorkItem>>(json) ?? new List<WorkItem>();
+
+                // Конвертуємо масив в словник
+                foreach (var item in workItemsArray)
+                {
+                    _workItems[item.Id] = item; // Додаємо в словник
+                }
             }
         }
 
         public Guid Add(WorkItem workItem)
         {
-            workItem.Id = Guid.NewGuid();
-            _workItems.Add(workItem);
-            SaveChanges();
-            return workItem.Id;
+            var newItem = workItem.Clone(); // Створюємо копію об'єкта
+            newItem.Id = Guid.NewGuid(); // Генеруємо новий Guid
+            _workItems[newItem.Id] = newItem; // Додаємо копію в словник
+            SaveChanges(); // Зберігаємо зміни
+            return newItem.Id; // Повертаємо новий ID
         }
 
         public WorkItem Get(Guid id)
         {
-            return _workItems.Find(w => w.Id == id);
+            _workItems.TryGetValue(id, out var workItem); // Отримуємо WorkItem за ID
+            return workItem;
         }
 
         public WorkItem[] GetAll()
         {
-            return _workItems.ToArray();
+            return new List<WorkItem>(_workItems.Values).ToArray(); // Повертаємо масив значень словника
         }
 
         public bool Update(WorkItem workItem)
         {
-            var existingItem = Get(workItem.Id);
-            if (existingItem != null)
+            if (_workItems.ContainsKey(workItem.Id))
             {
-                existingItem.Title = workItem.Title;
-                existingItem.Description = workItem.Description;
-                existingItem.DueDate = workItem.DueDate;
-                SaveChanges();
+                _workItems[workItem.Id] = workItem; // Оновлюємо запис в словнику
+                SaveChanges(); // Зберігаємо зміни
                 return true;
             }
             return false;
@@ -64,20 +66,18 @@ namespace JonDou9000.TaskPlanner.DataAccess
 
         public bool Remove(Guid id)
         {
-            var workItem = Get(id);
-            if (workItem != null)
+            var removed = _workItems.Remove(id); // Видаляємо запис зі словника
+            if (removed)
             {
-                _workItems.Remove(workItem);
-                SaveChanges();
-                return true;
+                SaveChanges(); // Зберігаємо зміни
             }
-            return false;
+            return removed;
         }
 
         public void SaveChanges()
         {
-            var json = JsonConvert.SerializeObject(_workItems, Formatting.Indented);
-            File.WriteAllText(FileName, json);
+            var json = JsonConvert.SerializeObject(new List<WorkItem>(_workItems.Values), Formatting.Indented); // Конвертуємо словник в масив
+            File.WriteAllText(FileName, json); // Записуємо в файл
         }
     }
 }

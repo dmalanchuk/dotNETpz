@@ -19,3 +19,8 @@
 /Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.ConsoleApp/obj/Debug/net9.0/JonDou9000.TaskPlanner.ConsoleApp.genruntimeconfig.cache
 /Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.ConsoleApp/obj/Debug/net9.0/ref/JonDou9000.TaskPlanner.ConsoleApp.dll
 /Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.ConsoleApp/obj/Debug/net9.0/JonDou9000.TaskPlanner.ConsoleApp.sourcelink.json
+/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.ConsoleApp/bin/Debug/net9.0/Newtonsoft.Json.dll
+/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.ConsoleApp/bin/Debug/net9.0/JonDou9000.TaskPlanner.DataAccess.Abstractions.dll
+/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.ConsoleApp/bin/Debug/net9.0/JonDou9000.TaskPlanner.DataAccess.dll
+/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.ConsoleApp/bin/Debug/net9.0/JonDou9000.TaskPlanner.DataAccess.Abstractions.pdb
+/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.ConsoleApp/bin/Debug/net9.0/JonDou9000.TaskPlanner.DataAccess.pdb
