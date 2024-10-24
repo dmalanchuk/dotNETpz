@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JonDou9000.TaskPlanner.Domain.Models")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+23064f8caf1f3f396dfcac4f6f66ed8b1c7785f0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd2427bbff99b4b14a5d053a49854997f4b149e5")]
 [assembly: System.Reflection.AssemblyProductAttribute("JonDou9000.TaskPlanner.Domain.Models")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JonDou9000.TaskPlanner.Domain.Models")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

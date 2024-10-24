@@ -10,68 +10,104 @@ namespace JonDou9000.TaskPlanner.ConsoleApp
         static void Main(string[] args)
         {
             SimpleTaskPlanner planner = new SimpleTaskPlanner();
+            var repository = new FileWorkItemsRepository();
+            string command;
 
-            // Створення нової задачі
-            WorkItem task = new WorkItem
+            do
             {
-                Title = "Написати звіт",
-                Description = "Завершити звіт до п'ятниці",
-                DueDate = DateTime.Now.AddDays(3)
+                Console.WriteLine("\nОберіть команду:");
+                Console.WriteLine("[A] - Додати задачу");
+                Console.WriteLine("[B] - Побудувати план");
+                Console.WriteLine("[M] - Позначити задачу як завершену");
+                Console.WriteLine("[R] - Видалити задачу");
+                Console.WriteLine("[Q] - Вийти з програми");
+
+                command = Console.ReadLine()?.ToUpper();
+
+                switch (command)
+                {
+                    case "A":
+                        AddWorkItem(repository);
+                        break;
+                    case "B":
+                        BuildPlan(repository);
+                        break;
+                    case "M":
+                        MarkWorkItemAsCompleted(repository);
+                        break;
+                    case "R":
+                        RemoveWorkItem(repository);
+                        break;
+                    case "Q":
+                        Console.WriteLine("Вихід з програми...");
+                        break;
+                    default:
+                        Console.WriteLine("Невідома команда. Спробуйте ще раз.");
+                        break;
+                }
+            } while (command != "Q");
+        }
+
+        static void AddWorkItem(FileWorkItemsRepository repository)
+        {
+            Console.WriteLine("Введіть заголовок задачі:");
+            string title = Console.ReadLine();
+            Console.WriteLine("Введіть опис задачі:");
+            string description = Console.ReadLine();
+            Console.WriteLine("Введіть дату завершення (yyyy-MM-dd):");
+            DateTime dueDate = DateTime.Parse(Console.ReadLine() ?? DateTime.Now.ToString());
+
+            var newWorkItem = new WorkItem
+            {
+                Title = title,
+                Description = description,
+                DueDate = dueDate
             };
+            Guid newId = repository.Add(newWorkItem);
+            Console.WriteLine($"Задача додана з ID: {newId}");
+        }
 
-            planner.AddTask(task);
-
-            // Збереження задачі у файл
-            string filePath = "work-items.json";
-            planner.SaveTasksToFile(filePath);
-            Console.WriteLine("Задачі збережено у файл.");
-
-            // Завантаження задач з файлу
-            planner.LoadTasksFromFile(filePath);
-            Console.WriteLine("Задачі завантажено з файлу:");
-
-            // Виведення всіх задач на екран
-            foreach (var item in planner.GetTasks())
+        static void BuildPlan(FileWorkItemsRepository repository)
+        {
+            var allItems = repository.GetAll();
+            Console.WriteLine("Ваші задачі:");
+            foreach (var item in allItems)
             {
                 Console.WriteLine($"Id: {item.Id}, Title: {item.Title}, Description: {item.Description}, Due Date: {item.DueDate}");
             }
+        }
 
-            // Тестування FileWorkItemsRepository
-            Console.WriteLine("\n--- Тестування FileWorkItemsRepository ---");
+        static void MarkWorkItemAsCompleted(FileWorkItemsRepository repository)
+        {
+            Console.WriteLine("Введіть ID задачі, яку потрібно позначити як завершену:");
+            Guid id = Guid.Parse(Console.ReadLine() ?? string.Empty);
+            var workItem = repository.Get(id);
 
-            var repository = new FileWorkItemsRepository();
-
-            // Додати нову задачу через репозиторій
-            var newWorkItem = new WorkItem
+            if (workItem != null)
             {
-                Title = "Тестова задача",
-                Description = "Це тестова задача.",
-                DueDate = DateTime.Now.AddDays(5)
-            };
-            Guid newId = repository.Add(newWorkItem);
-            Console.WriteLine($"Додано новий WorkItem з Id: {newId}");
+                // Тут можна додати логіку для позначення задачі як завершеної
+                Console.WriteLine($"Задача '{workItem.Title}' позначена як завершена.");
+            }
+            else
+            {
+                Console.WriteLine("Задачу не знайдено.");
+            }
+        }
 
-            // Отримання WorkItem
-            var retrievedItem = repository.Get(newId);
-            Console.WriteLine($"Отриманий WorkItem з Id {retrievedItem?.Id}");
+        static void RemoveWorkItem(FileWorkItemsRepository repository)
+        {
+            Console.WriteLine("Введіть ID задачі, яку потрібно видалити:");
+            Guid id = Guid.Parse(Console.ReadLine() ?? string.Empty);
+            bool removed = repository.Remove(id);
 
-            // Отримання всіх WorkItems
-            var allItems = repository.GetAll();
-            Console.WriteLine($"Кількість WorkItems: {allItems.Length}");
-
-            // Оновлення WorkItem
-            newWorkItem.Id = newId; // Встановлення Id для оновлення
-            newWorkItem.Description = "Оновлений опис";
-            bool updated = repository.Update(newWorkItem);
-            Console.WriteLine($"Оновлено WorkItem: {updated}");
-
-            // Видалення WorkItem
-            bool removed = repository.Remove(newId);
-            Console.WriteLine($"Видалено WorkItem: {removed}");
-
-            // Кількість WorkItems після видалення
-            allItems = repository.GetAll();
-            Console.WriteLine($"Кількість WorkItems після видалення: {allItems.Length}");
+            if (removed)
+            {
+                Console.WriteLine("Задачу успішно видалено.");
+            }
+            else
+            {
+                Console.WriteLine("Задачу не знайдено.");
+            }
         }
     }
 }
