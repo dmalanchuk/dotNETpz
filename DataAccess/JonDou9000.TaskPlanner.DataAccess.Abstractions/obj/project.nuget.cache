@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+sb2Za0s7ZhUBRTDA95TnxX20u6P+fT5YRaJHziI0s/hKdHQ1l00+huD3+dQ8M+FdPZ+aZVnBELmf/E9WNDXtA==",
+  "dgSpecHash": "lH9WLKDQwAfx/sd5F474BXJJZFshALllCVoaXqhyezMN3KQ8FKPdGXGLIvd9ZH1ILIYMyZPiWZZThmuZYxBURQ==",
   "success": true,
-  "projectFilePath": "/Users/danamarisik/Сoding/labaratorni/lab/DataAccess/JonDou9000.TaskPlanner.DataAccess.Abstractions/JonDou9000.TaskPlanner.DataAccess.Abstractions.csproj",
+  "projectFilePath": "/Users/danamarisik/Сoding/labaratorni/dotNETpz/DataAccess/JonDou9000.TaskPlanner.DataAccess.Abstractions/JonDou9000.TaskPlanner.DataAccess.Abstractions.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

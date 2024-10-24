@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/danamarisik/Сoding/labaratorni/lab/DataAccess/JonDou9000.TaskPlanner.DataAccess.Abstractions/JonDou9000.TaskPlanner.DataAccess.Abstractions.csproj": {}
+    "/Users/danamarisik/Сoding/labaratorni/dotNETpz/DataAccess/JonDou9000.TaskPlanner.DataAccess.Abstractions/JonDou9000.TaskPlanner.DataAccess.Abstractions.csproj": {}
   },
   "projects": {
-    "/Users/danamarisik/Сoding/labaratorni/lab/DataAccess/JonDou9000.TaskPlanner.DataAccess.Abstractions/JonDou9000.TaskPlanner.DataAccess.Abstractions.csproj": {
+    "/Users/danamarisik/Сoding/labaratorni/dotNETpz/DataAccess/JonDou9000.TaskPlanner.DataAccess.Abstractions/JonDou9000.TaskPlanner.DataAccess.Abstractions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/danamarisik/Сoding/labaratorni/lab/DataAccess/JonDou9000.TaskPlanner.DataAccess.Abstractions/JonDou9000.TaskPlanner.DataAccess.Abstractions.csproj",
+        "projectUniqueName": "/Users/danamarisik/Сoding/labaratorni/dotNETpz/DataAccess/JonDou9000.TaskPlanner.DataAccess.Abstractions/JonDou9000.TaskPlanner.DataAccess.Abstractions.csproj",
         "projectName": "JonDou9000.TaskPlanner.DataAccess.Abstractions",
-        "projectPath": "/Users/danamarisik/Сoding/labaratorni/lab/DataAccess/JonDou9000.TaskPlanner.DataAccess.Abstractions/JonDou9000.TaskPlanner.DataAccess.Abstractions.csproj",
+        "projectPath": "/Users/danamarisik/Сoding/labaratorni/dotNETpz/DataAccess/JonDou9000.TaskPlanner.DataAccess.Abstractions/JonDou9000.TaskPlanner.DataAccess.Abstractions.csproj",
         "packagesPath": "/Users/danamarisik/.nuget/packages/",
-        "outputPath": "/Users/danamarisik/Сoding/labaratorni/lab/DataAccess/JonDou9000.TaskPlanner.DataAccess.Abstractions/obj/",
+        "outputPath": "/Users/danamarisik/Сoding/labaratorni/dotNETpz/DataAccess/JonDou9000.TaskPlanner.DataAccess.Abstractions/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/danamarisik/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.Domain.Models/JonDou9000.TaskPlanner.Domain.Models.csproj": {
-                "projectPath": "/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.Domain.Models/JonDou9000.TaskPlanner.Domain.Models.csproj"
+              "/Users/danamarisik/Сoding/labaratorni/dotNETpz/JonDou9000.TaskPlanner.Domain.Models/JonDou9000.TaskPlanner.Domain.Models.csproj": {
+                "projectPath": "/Users/danamarisik/Сoding/labaratorni/dotNETpz/JonDou9000.TaskPlanner.Domain.Models/JonDou9000.TaskPlanner.Domain.Models.csproj"
               }
             }
           }
@@ -66,14 +66,14 @@
         }
       }
     },
-    "/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.Domain.Models/JonDou9000.TaskPlanner.Domain.Models.csproj": {
+    "/Users/danamarisik/Сoding/labaratorni/dotNETpz/JonDou9000.TaskPlanner.Domain.Models/JonDou9000.TaskPlanner.Domain.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.Domain.Models/JonDou9000.TaskPlanner.Domain.Models.csproj",
+        "projectUniqueName": "/Users/danamarisik/Сoding/labaratorni/dotNETpz/JonDou9000.TaskPlanner.Domain.Models/JonDou9000.TaskPlanner.Domain.Models.csproj",
         "projectName": "JonDou9000.TaskPlanner.Domain.Models",
-        "projectPath": "/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.Domain.Models/JonDou9000.TaskPlanner.Domain.Models.csproj",
+        "projectPath": "/Users/danamarisik/Сoding/labaratorni/dotNETpz/JonDou9000.TaskPlanner.Domain.Models/JonDou9000.TaskPlanner.Domain.Models.csproj",
         "packagesPath": "/Users/danamarisik/.nuget/packages/",
-        "outputPath": "/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.Domain.Models/obj/",
+        "outputPath": "/Users/danamarisik/Сoding/labaratorni/dotNETpz/JonDou9000.TaskPlanner.Domain.Models/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/danamarisik/.nuget/NuGet/NuGet.Config"

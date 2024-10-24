@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vP+bTeFejuJi+VnMsFRYCjDevOFTNdHL0PKuHRdS7JVZKlsvdis02PPnT2ggh3hBqaFfdulkWI/std3VCu/AYw==",
+  "dgSpecHash": "5mUeLPe+DYaf7r/SzPuLfOXe+xdKpI5uqSIDYStLBr/XE3vDQgN2KuSb+i7D358DnKPyDOuB9ZuRgbjjQnr7KA==",
   "success": true,
-  "projectFilePath": "/Users/danamarisik/Сoding/labaratorni/lab/JonDou9000.TaskPlanner.Domain.Models/JonDou9000.TaskPlanner.Domain.Models.csproj",
+  "projectFilePath": "/Users/danamarisik/Сoding/labaratorni/dotNETpz/JonDou9000.TaskPlanner.Domain.Models/JonDou9000.TaskPlanner.Domain.Models.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

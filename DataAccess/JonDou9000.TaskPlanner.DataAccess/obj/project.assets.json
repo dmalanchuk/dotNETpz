@@ -94,11 +94,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/danamarisik/Сoding/labaratorni/lab/DataAccess/JonDou9000.TaskPlanner.DataAccess/JonDou9000.TaskPlanner.DataAccess.csproj",
+      "projectUniqueName": "/Users/danamarisik/Сoding/labaratorni/dotNETpz/DataAccess/JonDou9000.TaskPlanner.DataAccess/JonDou9000.TaskPlanner.DataAccess.csproj",
       "projectName": "JonDou9000.TaskPlanner.DataAccess",
-      "projectPath": "/Users/danamarisik/Сoding/labaratorni/lab/DataAccess/JonDou9000.TaskPlanner.DataAccess/JonDou9000.TaskPlanner.DataAccess.csproj",
+      "projectPath": "/Users/danamarisik/Сoding/labaratorni/dotNETpz/DataAccess/JonDou9000.TaskPlanner.DataAccess/JonDou9000.TaskPlanner.DataAccess.csproj",
       "packagesPath": "/Users/danamarisik/.nuget/packages/",
-      "outputPath": "/Users/danamarisik/Сoding/labaratorni/lab/DataAccess/JonDou9000.TaskPlanner.DataAccess/obj/",
+      "outputPath": "/Users/danamarisik/Сoding/labaratorni/dotNETpz/DataAccess/JonDou9000.TaskPlanner.DataAccess/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/danamarisik/.nuget/NuGet/NuGet.Config"
@@ -113,8 +113,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "/Users/danamarisik/Сoding/labaratorni/lab/DataAccess/JonDou9000.TaskPlanner.DataAccess.Abstractions/JonDou9000.TaskPlanner.DataAccess.Abstractions.csproj": {
-              "projectPath": "/Users/danamarisik/Сoding/labaratorni/lab/DataAccess/JonDou9000.TaskPlanner.DataAccess.Abstractions/JonDou9000.TaskPlanner.DataAccess.Abstractions.csproj"
+            "/Users/danamarisik/Сoding/labaratorni/dotNETpz/DataAccess/JonDou9000.TaskPlanner.DataAccess.Abstractions/JonDou9000.TaskPlanner.DataAccess.Abstractions.csproj": {
+              "projectPath": "/Users/danamarisik/Сoding/labaratorni/dotNETpz/DataAccess/JonDou9000.TaskPlanner.DataAccess.Abstractions/JonDou9000.TaskPlanner.DataAccess.Abstractions.csproj"
             }
           }
         }
