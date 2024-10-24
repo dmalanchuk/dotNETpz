@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "BkxXJHiAzi291Vt2pJ9DxoZ5wvzdmx7CzxvgLwxQrMMJJ+bi3LyOgs0aIB5p3Hpwefrgp5/AagY8gT10Us1EwQ==",
+  "success": true,
+  "projectFilePath": "/Users/danamarisik/Сoding/labaratorni/lab/DataAccess/JonDou9000.TaskPlanner.DataAccess.Abstractions/JonDou9000.TaskPlanner.DataAccess.Abstractions.csproj",
+  "expectedPackageFiles": [
+    "/Users/danamarisik/.nuget/packages/microsoft.netcore.app.ref/6.0.26/microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
+    "/Users/danamarisik/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.26/microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512"
+  ],
+  "logs": []
+}

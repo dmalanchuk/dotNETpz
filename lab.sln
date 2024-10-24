@@ -9,6 +9,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JonDou9000.TaskPlanner.Cons
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JonDou9000.TaskPlanner.Domain.Models", "JonDou9000.TaskPlanner.Domain.Models\JonDou9000.TaskPlanner.Domain.Models.csproj", "{ED61709D-CE89-4F09-A236-FC11B9E8D066}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{E8870088-46DF-4C44-B733-47609F497933}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab.TaskPlanner.DataAccess.Abstractions", "DataAccess\lab.TaskPlanner.DataAccess.Abstractions\lab.TaskPlanner.DataAccess.Abstractions.csproj", "{85C753EB-525B-4A9E-B650-FBD82B35B65E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab.TaskPlanner.DataAccess", "DataAccess\lab.TaskPlanner.DataAccess\lab.TaskPlanner.DataAccess.csproj", "{220184C2-0C9A-44AA-B22F-017BEA2E9604}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,11 +33,23 @@ Global
 		{ED61709D-CE89-4F09-A236-FC11B9E8D066}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED61709D-CE89-4F09-A236-FC11B9E8D066}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED61709D-CE89-4F09-A236-FC11B9E8D066}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85C753EB-525B-4A9E-B650-FBD82B35B65E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85C753EB-525B-4A9E-B650-FBD82B35B65E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85C753EB-525B-4A9E-B650-FBD82B35B65E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85C753EB-525B-4A9E-B650-FBD82B35B65E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{220184C2-0C9A-44AA-B22F-017BEA2E9604}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{220184C2-0C9A-44AA-B22F-017BEA2E9604}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{220184C2-0C9A-44AA-B22F-017BEA2E9604}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{220184C2-0C9A-44AA-B22F-017BEA2E9604}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7D938B28-769F-44C1-8A17-06721E2687EA}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{85C753EB-525B-4A9E-B650-FBD82B35B65E} = {E8870088-46DF-4C44-B733-47609F497933}
+		{220184C2-0C9A-44AA-B22F-017BEA2E9604} = {E8870088-46DF-4C44-B733-47609F497933}
 	EndGlobalSection
 EndGlobal
